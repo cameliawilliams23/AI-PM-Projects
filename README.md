@@ -49,18 +49,18 @@ You'll now have a well-structured task list, often with tasks and sub-tasks, rea
 Example of a generated task list
 
 4️⃣ Instruct the AI to Work Through Tasks (and Mark Completion)
-To ensure methodical progress and allow for verification, we'll use process-task-list.mdc. This command instructs the AI to focus on one task at a time and wait for your go-ahead before moving to the next.
+To ensure methodical progress and allow for verification, we'll use process-task-list-june25.mdc. This command instructs the AI to focus on one task at a time and wait for your go-ahead before moving to the next.
 
-Create or ensure you have the process-task-list.mdc file accessible.
+Create or ensure you have the process-task-list-june25.mdc file accessible.
 
 In Cursor's Agent chat, tell the AI to start with the first task (e.g., 1.1):
 
-Please start on task 1.1 and use @process-task-list.mdc
-(Important: You only need to reference @process-task-list.mdc for the first task. The instructions within it guide the AI for subsequent tasks.)
+Please start on task 1.1 and use @process-task-list-june25.mdc
+(Important: You only need to reference @process-task-list-june25.mdc for the first task. The instructions within it guide the AI for subsequent tasks.)
 
 The AI will attempt the task and then prompt you to review.
 
-Example of starting on a task with process-task-list.mdc
+Example of starting on a task with process-task-list-june25.mdc
 
 5️⃣ Review, Approve, and Progress ✅
 As the AI completes each task, you review the changes.
