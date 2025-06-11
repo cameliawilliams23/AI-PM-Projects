@@ -34,11 +34,11 @@ Example of initiating PRD creation
 2️⃣ Generate Your Task List from the PRD
 With your PRD drafted (e.g., MyFeature-PRD.md), the next step is to generate a detailed, step-by-step implementation plan for your AI Developer.
 
-Ensure you have generate-tasks-from-prd.mdc accessible.
+Ensure you have generate-task-june25.mdc accessible.
 
 In Cursor's Agent chat, use the PRD to create tasks:
 
-Now take @MyFeature-PRD.md and create tasks using @generate-tasks-from-prd.mdc
+Now take @MyFeature-PRD.md and create tasks using @generate-task-june25.mdc
 (Note: Replace @MyFeature-PRD.md with the actual filename of the PRD you generated in step 1.)
 
 Example of generating tasks from PRD
@@ -75,7 +75,7 @@ While it's not always perfect, this method has proven to be a very reliable way 
 
 Files in this Repository
 create-prd-june25.mdc: Guides the AI in generating a Product Requirement Document for your feature.
-generate-tasks-from-prd.mdc: Takes a PRD markdown file as input and helps the AI break it down into a detailed, step-by-step implementation task list.
+generate-task-june25.mdc: Takes a PRD markdown file as input and helps the AI break it down into a detailed, step-by-step implementation task list.
 process-task-list.mdc: Instructs the AI on how to process the generated task list, tackling one task at a time and waiting for your approval before proceeding. (This file also contains logic for the AI to mark tasks as complete).
 🌟 Benefits
 Structured Development: Enforces a clear process from idea to code.
