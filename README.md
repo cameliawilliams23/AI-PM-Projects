@@ -20,11 +20,11 @@ First, lay out the blueprint for your feature. A PRD clarifies what you're build
 
 You can create a lightweight PRD directly within Cursor:
 
-Ensure you have the create-prd.mdc file from this repository accessible.
+Ensure you have the create-prd-june25.mdc file from this repository accessible.
 
 In Cursor's Agent chat, initiate PRD creation:
 
-Use @create-prd.mdc
+Use @create-prd-june25.mdc
 Here's the feature I want to build: [Describe your feature in detail]
 Reference these files to help you: [Optional: @file1.py @file2.ts]
 (Pro Tip: For complex PRDs, using MAX mode in Cursor is highly recommended if your budget allows for more comprehensive generation.)
@@ -74,7 +74,7 @@ Example of a progressing task list with completed items
 While it's not always perfect, this method has proven to be a very reliable way to build out larger features with AI assistance.
 
 Files in this Repository
-create-prd.mdc: Guides the AI in generating a Product Requirement Document for your feature.
+create-prd-june25.mdc: Guides the AI in generating a Product Requirement Document for your feature.
 generate-tasks-from-prd.mdc: Takes a PRD markdown file as input and helps the AI break it down into a detailed, step-by-step implementation task list.
 process-task-list.mdc: Instructs the AI on how to process the generated task list, tackling one task at a time and waiting for your approval before proceeding. (This file also contains logic for the AI to mark tasks as complete).
 🌟 Benefits
@@ -91,6 +91,6 @@ Feel free to modify the prompts within the .mdc files to better suit your specif
 If the AI struggles with a task, try rephrasing your initial feature description or breaking down tasks even further.
 💡 Tips for Success
 Be Specific: The more context and clear instructions you provide (both in your initial feature description and any clarifications), the better the AI's output will be.
-MAX Mode for PRDs: As mentioned, using MAX mode in Cursor for PRD creation (create-prd.mdc) can yield more thorough and higher-quality results if your budget supports it.
+MAX Mode for PRDs: As mentioned, using MAX mode in Cursor for PRD creation (create-prd-june25.mdc) can yield more thorough and higher-quality results if your budget supports it.
 Correct File Tagging: Always ensure you're accurately tagging the PRD filename (e.g., @MyFeature-PRD.md) when generating tasks.
 Patience and Iteration: AI is a powerful tool, but it's not magic. Be prepared to guide, correct, and iterate. This workflow is designed to make that iteration process smoother.
